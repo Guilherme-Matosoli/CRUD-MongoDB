@@ -327,7 +327,7 @@ export const Home = () => {
                 <div>
                     <label htmlFor="searc">Buscar: </label>
                     <EmployeeSearch type="text"
-                    placeholder='diite o nome de quem deseja procurar'
+                    placeholder='digite o nome de quem deseja procurar'
                     id='searc'
                     value={searchName}
                     onChange={e => setSearchName(e.target.value)}

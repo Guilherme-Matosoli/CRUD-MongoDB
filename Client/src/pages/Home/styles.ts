@@ -141,6 +141,7 @@ export const EmployeeSearch = styled.input`
 
     background-color: white;
     border-radius: 1rem;
+    margin-left: 1rem;
 `;
 
 export const NewEmployeeButton = styled.button`
