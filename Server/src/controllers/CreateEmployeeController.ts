@@ -2,8 +2,8 @@ import { Request, Response } from "express";
 import Employee from "../database/entities/Employee";
 
 export class CreateEmployeeController{
-    async create(req: Request, res: Response ): Promise<Response>{
 
+    async create(req: Request, res: Response ): Promise<Response>{
         try{
 
             const {
